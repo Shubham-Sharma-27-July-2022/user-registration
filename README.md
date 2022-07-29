@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta name="viewport" content="width=device-width" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>WordPress &#8250; ReadMe</title>
-	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
-</head>
-<body>
 <h1>How To Restore Your WordPress Site</h1>
 
 <p>Install latest version of wordpress on your system from <a href="https://wordpress.org/download/">Latest version</a></p>
