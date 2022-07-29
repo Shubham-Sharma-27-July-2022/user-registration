@@ -1,0 +1,1 @@
+{"name":"miniorange-otp-verification","version":"3.8.3","type":"MiniOrangeGateway","testMode":false,"failMode":false,"hostname":"https:\/\/login.xecurify.com","dCustomerKey":"16555","dApiKey":"fFd2XcvTGDemZvbw1bcUesNJWEqKbbUq","sslVerify":false,"session":"TRANSIENT","typePlan":"wp_otp_verification_basic_plan","licenseName":"WP_OTP_VERIFICATION_PLUGIN"}

@@ -1,0 +1,259 @@
+
+* { margin:0; padding:0; }
+body, div, span, p, a, img, ul, ol, li, table, th, tr, td, form, fieldset, legend, dl, dt, dd, blockquote, applet, object { border:0; }
+body { 
+padding:0; 
+background: #fff url(img/bg.jpg) repeat-x; 
+font: 0.8em/1.5 "arial",sans-serif; 
+color: #000; 
+text-align: center; 
+}
+
+/* obecne odkazy --------------------------------------------------------------- */
+a {color:#734105;}
+a:link {color:#734105;}
+a:hover {color:#a6600c;}
+
+/* nadpisy --------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 { margin:15px 0 10px 0; }
+h1 { font-size:200%; }
+h2 { font-size:140%;  color: #734105;font-weight: normal; margin: 0; padding: 10px 26px;}
+h2 a{text-decoration: none;}
+h3 { font-size:120%; }
+h4 { font-size:120%; }
+h5 { font-size:100%; }
+
+/* layout ---------------------------------------------------------------------- */
+#layout { 
+width:745px; 
+margin:0 auto; 
+text-align:left; 
+}
+
+/* hlavicka ------------------------------------------------------------------ */
+#header { position: relative; height: 133px; background: #ee8100 url(img/header.jpg) no-repeat; }
+#header fieldset{border: 0; margin:0; padding:0;}
+#logo {
+margin: 0;
+line-height: 120%;
+font-size:230%;
+padding: 30px 0 0 30px;
+}
+#logo a{color: #ffecd5;font-weight: normal;text-decoration: none;}
+#logo a:hover{color: #fff;}
+
+#slogan{
+background: #e6820c;color: #fff;padding: 1px 5px;margin-left: 30px;
+}
+
+#quicknav{
+position: absolute;
+top: 2px;
+right: 0px;
+}
+#quicknav a{color: #ffe7ca;text-decoration: none;padding-right: 27px;font-size: 85%;}
+#quicknav a:hover{color: #fff;}
+
+#search{
+position: absolute;
+bottom: 19px;
+right: 0;
+}
+#search #phrase{ margin:0; width: 125px; font-size: 85%; border: 0;color: #797979;}
+#search #submit{margin: 0 20px 0 0; font-size: 85%;border: 0;background: #955102; color: #fff; width: 60px;cursor: pointer;}
+
+/* horizontalni navigace --------------------------------------------------- */
+#nav { }
+#nav ul {margin:0 0 0 20px; padding:0; list-style:none;}
+#nav ul li {float:left; display:block; margin:0; padding:0;}
+#nav ul li a {
+display: block; 
+float: left;
+padding: 15px 15px;
+text-align: center;
+color: #734105;
+text-decoration: none;
+background: url(img/nav-sep.jpg) no-repeat right 50%;
+}
+#nav ul li a.nosep{background: none;}
+#nav ul li a:hover {
+text-decoration: underline;
+}
+#nav ul li#active a {
+font-weight: bold;text-decoration:underline;}
+
+#container { 
+border-top: 1px solid #c1c1c1;
+
+} 
+
+.content {
+float: left; 
+padding: 0 0 0 0;
+width:510px;overflow: hidden;
+z-index: 10;
+}
+
+
+#new-article{
+background: #f3f3f3 url(img/new.jpg) no-repeat;
+}
+#new-article #corner{
+padding: 0 0 20px 0;
+background: url(img/corner.jpg) no-repeat right bottom;
+}
+#new-article p{color: #4e4506; font-size: 85%;text-align: justify; padding: 0; margin:5px 10px; width: 310px; position: relative; left: 20px;}
+#new-article .article-img{
+width: 136px;
+height: 115px;
+position: relative;
+left: 20px;
+margin: 0;
+}
+#new-article .article-img div{
+width: 136px;
+height: 115px;
+position: absolute;top: 0; left:0;
+z-index: 10px;
+background: url(img/new-img.gif) no-repeat; 
+}
+a.more{width:59px;height: 20px;background: #ee8100 url(img/more.jpg) no-repeat; color: #fff;text-align: center; line-height: 20px;font-size: 85%;display: block;float: right;text-decoration: none;margin-right: 20px; margin-top: 15px;}
+a.more:hover{color: #ffddb4;}
+
+.article{padding: 0 0 20px 0; border-bottom: 1px solid #f3f3f3;}
+.article p{color: #4e4506; font-size: 85%;text-align: justify; padding: 0; margin:5px 10px; width: 310px;position: relative;left: 20px;}
+.article .article-img{
+width: 136px;
+height: 115px;
+position: relative;
+left: 20px;
+margin: 0;
+}
+.article .article-img div{
+width: 136px;
+height: 115px;
+position: absolute;top: 0; left:0;
+z-index: 10px;
+background: url(img/art-img.gif) no-repeat; 
+}
+a.older{display: block;
+padding: 5px;}
+/* Sloupce ----------------------------------------------------------------- */
+#panel-right { float:right; width:235px; background:  url(img/panel-corner.jpg) no-repeat;}
+.panel .in { background: url(img/panel-bot.jpg) no-repeat bottom;padding: 10px; }
+.panel #bottom {margin-left: 9px;margin-top: 10px;  background: #f0f0f0 url(img/panel-top.jpg) no-repeat top; }
+
+.panel .title{
+text-transform: uppercase;
+color: #606060;
+display: block;
+font-size: 90%;
+}
+.panel ul {list-style: none; margin: 5px 0 15px 0; padding: 0;}
+.panel ul li{background: url(img/panel-dots.jpg) repeat-x bottom; padding: 0 5px;}
+.panel ul li a{display: block;padding: 3px 5px; width: 90%;font-size: 85%; color: #808081;text-decoration: none;}
+.panel ul li a:hover{color: #545454;}
+.panel .about-me{
+margin: 0;padding: 0; width: 120px; font-size: 85%; text-align: justify;color: #808081; line-height: 13px;
+}
+.panel .about-me em{display: block;color: #606060;font-size: 110%; margin: 10px 0 5px 0;}
+.panel .about-img{
+width: 79px;
+height: 97px;
+position: relative;
+margin: 5px 5px 0 0px;
+}
+.panel .about-img div{
+width: 79px;
+height: 97px;
+position: absolute;top: 0; left:0;
+z-index: 10px;
+background: url(img/about-me.gif) no-repeat; 
+}
+.panel .about-img img{margin: 7px 0 0 4px;}
+/* paticka ----------------------------------------------------------------- */
+#footer {
+clear:both;
+height: 85px;
+background: url(img/footer-bg.jpg) repeat-x bottom;
+}
+#foot{
+width: 745px; text-align: left;  margin:0 auto; 
+}
+#page-bottom{
+height: 46px;
+line-height: 40px;
+background: url(img/footer.jpg) no-repeat bottom;
+}
+#page-bottom a{text-decoration: none; display: block; width: 85px;float: right;}
+#footer p { margin:0 20px; font-size: 85%;padding-top:11px;  color: #ffd39f;}
+#footer p a{color: #fff;}
+#footer p a:hover{color: #ffd39f; text-decoration: none;}
+#footer p a#webdesign{color: #ffd39f;text-decoration: none;}
+
+
+
+/* odstavce -------------------------------------------------------------------- */
+p { margin:15px 0; }
+
+/* tabulky --------------------------------------------------------------------- */
+table { margin:15px 0; border-collapse:collapse; border-spacing:0; font-size:100%; }
+th { text-align:center; font-weight:bold; }
+th, td { padding:3px 5px; }
+
+/* seznamy --------------------------------------------------------------------- */
+ul, ol { display:block; margin:15px 0 15px 40px; }
+ul ul, ul ul ul, ol ol, ol ol ol { margin:0; margin-left:20px; }
+ol { list-style-type:decimal; }
+ol ol { list-style-type:upper-alpha; }
+ol ol ol {list-style-type:lower-alpha; }
+li { display:list-item; }
+ul li a { text-decoration:underline; }
+
+/* definice -------------------------------------------------------------------- */
+dl { margin:15px 0; }
+dt { font-weight:bold; }
+dd { margin-left:30px; }
+
+/* ostatni --------------------------------------------------------------------- */
+fieldset { margin:15px 0; padding:10px; border:1px solid #CCC; }
+legend { margin-left:10px; font-size:100%; font-weight:bold; color:#000; }
+abbr, acronym, .help { border-bottom:1px dotted #CCC; cursor:help; }
+blockquote { margin:15px 20px; font-style:italic; }
+del, .del { text-decoration:line-through; }
+strong, .strong { font-weight:bold; }
+cite, em, q, var { font-style:italic; }
+code, kbd, samp  {font-family:monospace; font-size:110%; }
+hr { display:block; height:1px; margin:10px 0; padding:0; border:0 solid #CCC; background:#CCC; color:#CCC;} 
+.f-left {float:left;}
+.f-right {float:right;}
+.a-left, tr.a-left td {text-align:left;}
+.a-center, tr.a-center td {text-align:center;}
+.a-right, tr.a-right td {text-align:right;}
+.a-justify {text-align:justify;}
+.va-top {vertical-align:top;}
+.va-middle {vertical-align:middle;}
+.va-bottom {vertical-align:bottom;}
+.clear { clear:both; }
+.box { min-height:1px; }
+.box:after { display:block; visibility:hidden; clear:both; line-height:0; font-size:0; content:"."; }
+.noscreen { display:none; }
+.mleft10 { margin-left: 10px; }
+.mright10 { margin-right: 10px; }
+.mtop10 { margin-top: 10px; }
+.mbottom10 { margin-bottom: 10px; }
+
+/* univerzalni prvky ------------------------------------------------------------ */
+input.small{
+width: 50px;
+}
+input.normal{
+width: 146px;
+}
+.bigger {font-size:115%;}
+.smaller {font-size:85%;}
+
+.high {color:#00F;}
+.nonhigh {color:#777;}
+
+.foto{  display: block; border: 3px solid #ddd;}
