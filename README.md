@@ -13,7 +13,7 @@
 <p>Click on login</p>
 <p>Enter you're Email or Password For login again</p>
 
-<h1>How to login websitesite</h1>
+<h1>How to login website</h1>
 <p>Open url localhost/user-registration/wp-admin</p>
 <p>Enter <b>username:admin</b></p>
 <p>Enter <b>password:admin</b></p>
